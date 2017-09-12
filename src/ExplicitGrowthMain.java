@@ -12,6 +12,6 @@ public class ExplicitGrowthMain {
         System.out.println("Enter the observation time (hours): ");
         double obsTime = keyboard.nextInt();
         double growthConstant = Math.log(growthRate) / time;
-        System.out.println("After " + obsTime + " hours there will be " + (int)(initOrganisms * Math.pow(Math.E, obsTime * growthConstant)) + " organisms.");
+        System.out.println("After " + (int)obsTime + " hours there will be " + (int)(initOrganisms * Math.pow(Math.E, obsTime * growthConstant)) + " organisms.");
     }
 }
